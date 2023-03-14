@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css">
     <link
       rel="stylesheet"
       href="{{ url_for('static', filename='css/index.css') }}"
@@ -21,20 +22,36 @@
       href="https://fonts.googleapis.com/css?family=Ubuntu"
     />
 
+    <style>
+      body {
+        align-content: center;
+      }
+    </style>
+
     <title>meetmonkey</title>
   </head>
   <body>
-    <h1 class="title">Meet Monkey</h1>
-    
-    <img class="photo" src="static/images/gorilla-office.jpg">
-    
-    <h2 class="name">{{name}}</h2>
-    
-    <ul class="bio">
-      <li class="species">Species</li>
-      <li class="aboutme">Bio</li>
-      <li class="interests">Likes/Dislikes</li>
-    </ul>
+    <nav>
+      <ul>
+        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Free Robux</a></li>
+        <li><strong>meetmonkey</strong></li>
+        <li><a href="https://github.com/jjoeldaniel/meetmonkey" target="_blank">Source Code</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <img class="photo" src="static/images/gorilla-office.jpg">
+      
+      <h2 class="name">{{name}}</h2>
+      
+      <ul class="bio">
+        <li class="aboutme"><strong>Bio:</strong> {{bio}}</li>
+        <li class="interests"><strong>Likes/Dislikes:</strong>
+          {% for x in likes %}
+          {{x}}, 
+          {% endfor %}
+        </li>
+      </ul>
+    </div>
   
   </body>
 
