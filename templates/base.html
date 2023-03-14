@@ -9,6 +9,8 @@
       href="{{ url_for('static', filename='css/index.css') }}"
     />
 
+    <link rel="stylesheet" href="css/pico.min.css">
+
     <!-- Fonts -->
     <link
       rel="stylesheet"
@@ -19,45 +21,23 @@
       href="https://fonts.googleapis.com/css?family=Ubuntu"
     />
 
-    <title>Template</title>
+    <title>meetmonkey</title>
   </head>
   <body>
-    <a href="https://vercel.com" target="_blank" rel="noopener noreferrer">
-      <img
-        id="vercel-logo"
-        src="{{ url_for('static', filename='vercel.svg') }}"
-        alt="Vercel Logo"
-        width="200"
-        height="200"
-      />
-    </a>
+    <h1 class="title">Meet Monkey</h1>
+    
+    <img class="photo" src="static/images/gorilla-office.jpg">
+    
+    <h2 class="name">Bruce</h2>
+    
+    <ul class="bio">
+      <li class="species">Species</li>
+      <li class="aboutme">Bio</li>
+      <li class="interests">Likes/Dislikes</li>
+    </ul>
+  
+  </body>
 
-    <div id="example_div">
-      <h1 class="desktop grow">Very simple template using Flask and Vercel</h1>
-
-      <h1 class="mobile">Flask + Vercel Template</h1>
-
-      {% block content %} {% endblock %}
-      
-    </div>
-
-    <footer>
-      <p>
-        <a
-          href="https://github.com/jjoeldaniel/vercel-flask"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Source Code</a
-        >
-        <br />
-        Made with ❤️ by
-        <a
-          href="https://github.com/jjoeldaniel"
-          target="_blank"
-          rel="noopener noreferrer"
-          >jjoeldaniel</a
-        >
-      </p>
-    </footer>
+   
   </body>
 </html>
