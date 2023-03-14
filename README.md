@@ -1,4 +1,4 @@
-# MeetMonkey
+# meetmonkey
 
 > Welcome to the jungle
 
