@@ -7,6 +7,8 @@ How it works
 
 We've taken inspiration from our primate cousins and created a dating app that's as easy as peeling a banana. Simply create a profile, upload a photo of yourself (no monkey suits, please), and start browsing other monkey singles in your area.
 
+![show](show.png)
+
 When you find someone who catches your eye (or your tail), send them a banana emoji to break the ice. If they respond positively, it's time to get chatty and start arranging a date.
 
 ## Safety first
