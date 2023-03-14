@@ -1,41 +1,17 @@
-# vercel-flask
+# MeetMonkey
 
-> A Flask template for Vercel
+> Welcome to the jungle
 
-## How to Deploy
+Do you ever feel like dating is a jungle out there? Well, with MeetMonkey, we've made it a little more literal. Here at MeetMonkey, we believe that finding your perfect match should be as fun and easy as swinging from branch to branch.
+How it works
 
-1. Use this template by clicking "Use this template" button above or [click here](https://github.com/jjoeldaniel/vercel-flask/generate)
-2. Deploy your new project to [Vercel](https://vercel.com/new)
+We've taken inspiration from our primate cousins and created a dating app that's as easy as peeling a banana. Simply create a profile, upload a photo of yourself (no monkey suits, please), and start browsing other monkey singles in your area.
 
-## How to Run Locally
+When you find someone who catches your eye (or your tail), send them a banana emoji to break the ice. If they respond positively, it's time to get chatty and start arranging a date.
 
-1. Install Python 3.7 or later
-2. Create a virtual environment:
+## Safety first
 
-    ```terminal
-    python3 -m venv venv
-    ```
+At MeetMonkey, we take safety seriously. That's why we've implemented some special features to keep you and your new monkey friends safe. We've added a scratch-and-sniff feature to make sure everyone smells like a real monkey, and we've also partnered with local zoos to verify the identities of our members.
+Get started today!
 
-3. Activate the virtual environment:
-
-    Linux
-    ```terminal
-    source venv/bin/activate
-    ```
-    
-    Windows
-    ```terminal
-    venv/scripts/activate
-    ```
-
-4. Install dependencies:
-
-    ```terminal
-    pip install -r requirements.txt
-    ```
-
-5. Run the app:
-
-    ```terminal
-    flask --app api/index.py run
-    ```
+So what are you waiting for? Whether you're a capuchin looking for love or a macaque on the hunt for a mate, MeetMonkey is the perfect place to find your soul-mate. So come join the fun and start swinging towards love today!
